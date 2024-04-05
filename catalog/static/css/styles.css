@@ -1,6 +1,38 @@
+/* Targeting Sidebar Navigation */
 .sidebar-nav {
-    margin-top: 20px;
-    padding: 0;
     list-style: none;
-  }
-  
+    padding-left: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+    color: #007bff; /* Bootstrap primary color for hover effect */
+}
+
+/* Styling User Info */
+.sidebar-nav li:first-child {
+    font-weight: bold;
+}
+
+/* Targeting Pagination Links */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination .page-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.pagination .page-current {
+    font-weight: bold;
+}
